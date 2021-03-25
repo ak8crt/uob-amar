@@ -6,7 +6,7 @@ Use the script BETWEEN the ==== lines below in the User Data area of the EC2 ins
 #!/bin/bash -xe
 yum install -y ruby
 cd /opt
-curl -O https://aws-codedeploy-eu-west-1.s3.eu-west-1.amazonaws.com/latest/install
+curl -O https://aws-codedeploy-eu-west-1.s3.eu-west-1.amazonaws.com/latest/install/Hello
 chmod +x ./install
 ./install auto
 sudo yum install httpd -y
